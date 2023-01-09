@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{	//change the variable names so they are not keywords
+	int a, b;
+	scanf("%d %d", &a, &b);
+	printf("%d %d", a, b);
+	return 0;
+}
